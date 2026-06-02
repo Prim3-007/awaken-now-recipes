@@ -1660,32 +1660,36 @@
   },
   {
     "id": "recipe_059",
-    "name": "Ash Gourd Kofta in Spinach Gravy",
+    "name": "Ash Gourd Kofta in Spinach Gravy with Besan-Methi Paratha",
     "category": "BREAKFAST",
     "ingredients": [
-      "ash gourd",
       "almond milk",
-      "spices",
-      "salt",
+      "ash gourd",
       "besan",
-      "coconut oil. gravy: spinach"
+      "chickpea flour",
+      "coconut oil. gravy: spinach",
+      "fenugreek leaves",
+      "ghee",
+      "salt",
+      "spices",
+      "warm water"
     ],
     "instructions": [
-      "Wash and clean all fresh ingredients thoroughly. Peel, chop, or slice the fresh produce (ash gourd, spices) as required for the recipe. Measure out the spices and seasonings (salt) so they are ready for use. If using grains, lentils, or beans (besan), rinse them under running water and drain well. Keep all prepared items organized on your kitchen counter.",
-      "Heat a suitable pan or pot on medium-low heat and add a touch of coconut oil. gravy: spinach. Gently temper the whole spices or aromatics (such as salt) in the hot fat for 30-60 seconds until they become highly fragrant and release their natural oils. Be careful not to burn the base foundation.",
-      "Introduce the main ingredients to the tempered base. Stir in the grains or legumes (besan) along with water or broth. Add the prepped vegetables (ash gourd, spices) to the pot. Cover with a lid, reduce heat to medium-low, and let the mixture simmer gently. Stir occasionally to prevent sticking, and cook for 15-20 minutes until everything is tender and cooked through.",
-      "Uncover and assess the texture and thickness of the dish. Add finishing liquids like almond milk (e.g. lemon juice or coconut milk) to enrich the body and flavor profile. Adjust the seasoning by adding remaining salt or fine spices (salt). Let the dish simmer or blend for an additional 2-3 minutes to allow all the unique flavors to meld together beautifully.",
-      "Remove the dish from heat (or stop the blender) and prepare for presentation. Garnish with a sprinkle of mild spices or toasted seeds. Serve this healthy, gluten-free, and vegan Ash Gourd Kofta in Spinach Gravy warm (or chilled if it is a beverage) in beautiful serving bowls or glassware. Enjoy immediately!"
+      "Grate the fresh ash gourd for the koftas. Wash and chop the spinach and fenugreek leaves thoroughly. Measure out the besan, chickpea flour, and spices.",
+      "Make the koftas and gravy: mix grated ash gourd with besan and spices, shape into balls, and bake/shallow-fry. In parallel, simmer spinach, spices, and almond milk to create the rich green gravy base.",
+      "Make the Paratha dough: mix chickpea flour, chopped fenugreek leaves (methi), salt, ghee, and warm water. Knead, roll out, and cook the Besan-Methi Parathas on a hot tawa with ghee until crispy.",
+      "Add the prepared kofta balls into the spinach gravy and simmer gently for 3-5 minutes until the koftas absorb the savory flavors of the gravy.",
+      "Plate the Ash Gourd Koftas in Spinach Gravy in a serving bowl and serve accompanied by the warm, freshly griddled Besan-Methi Parathas."
     ],
-    "description": "A clean, gluten-free & vegan recipe from the Breakfast collection.",
+    "description": "A clean, gluten-free & vegan pairing of Ash Gourd Koftas in Spinach Gravy and freshly griddled Besan-Methi Paratha.",
     "image": "https://images.unsplash.com/photo-1533089860892-a7c6f0a88666?auto=format&fit=crop&q=80&w=600",
     "substituted": false,
     "substitutionNotes": "Verified compliant with dietary guidelines.",
-    "prepTime": 10,
-    "cookTime": 10,
-    "totalTime": 20,
+    "prepTime": 20,
+    "cookTime": 25,
+    "totalTime": 45,
     "servings": 2,
-    "difficulty": "Easy"
+    "difficulty": "Medium"
   },
   {
     "id": "recipe_060",
@@ -1748,30 +1752,34 @@
   },
   {
     "id": "recipe_062",
-    "name": "Pumpkin-Almond Chickpea Curry",
+    "name": "Pumpkin-Almond Chickpea Curry with Jwar & Missi Roti",
     "category": "BREAKFAST",
     "ingredients": [
-      "jalape\u00f1os",
+      "almond flour",
+      "besan",
       "chickpeas",
+      "indian spices (cumin, etc.)",
+      "jalape\u00f1os",
+      "jwar flour",
       "roasted pumpkin puree",
-      "almond flour"
+      "warm water"
     ],
     "instructions": [
-      "Wash and clean all fresh ingredients thoroughly. Peel, chop, or slice the fresh produce (jalape\u00f1os, roasted pumpkin puree) as required for the recipe. If using grains, lentils, or beans (chickpeas), rinse them under running water and drain well. Keep all prepared items organized on your kitchen counter.",
-      "Heat a suitable pan or pot on medium-low heat and add a touch of coconut oil or ghee. Once the pan is hot, prepare to add your main ingredients. Be careful not to burn the base foundation.",
-      "Introduce the main ingredients to the tempered base. Stir in the grains or legumes (chickpeas) along with water or broth. Add the prepped vegetables (jalape\u00f1os, roasted pumpkin puree) to the pot. Cover with a lid, reduce heat to medium-low, and let the mixture simmer gently. Stir occasionally to prevent sticking, and cook for 15-20 minutes until everything is tender and cooked through.",
-      "Uncover and assess the texture and thickness of the dish. Let the dish simmer or blend for an additional 2-3 minutes to allow all the unique flavors to meld together beautifully.",
-      "Remove the dish from heat (or stop the blender) and prepare for presentation. Serve this healthy, gluten-free, and vegan Pumpkin-Almond Chickpea Curry warm (or chilled if it is a beverage) in beautiful serving bowls or glassware. Enjoy immediately!"
+      "Wash and clean all fresh ingredients thoroughly. Chop the jalape\u00f1os and prepare the pumpkin puree and chickpeas. Measure out jwar flour, besan, and cumin spices.",
+      "Cook the curry base: simmer the chickpeas and roasted pumpkin puree in water/broth with jalape\u00f1os and almond flour for 20 minutes until the gravy is thick and highly aromatic.",
+      "Prepare the Roti dough: mix jwar flour, besan, cumin spices, and warm water. Knead well, roll out, and griddle the Jwar & Missi Rotis on a hot tawa until nicely toasted on both sides.",
+      "Assess the curry's consistency. Let the chickpea gravy simmer for an additional 2-3 minutes to allow all the unique flavors to meld together beautifully.",
+      "Serve the warm, flavorful Pumpkin-Almond Chickpea Curry paired with the hot Jwar & Missi Rotis. Enjoy immediately!"
     ],
-    "description": "A clean, gluten-free & vegan recipe from the Breakfast collection.",
+    "description": "A clean, gluten-free & vegan pairing of Pumpkin-Almond Chickpea Curry and freshly griddled Jwar & Missi Roti.",
     "image": "https://images.unsplash.com/photo-1533089860892-a7c6f0a88666?auto=format&fit=crop&q=80&w=600",
     "substituted": false,
     "substitutionNotes": "Verified compliant with dietary guidelines.",
-    "prepTime": 10,
-    "cookTime": 25,
-    "totalTime": 35,
+    "prepTime": 15,
+    "cookTime": 30,
+    "totalTime": 45,
     "servings": 2,
-    "difficulty": "Easy"
+    "difficulty": "Medium"
   },
   {
     "id": "recipe_063",
@@ -1976,31 +1984,34 @@
   },
   {
     "id": "recipe_070",
-    "name": "Spinach Vegan Kadhi",
+    "name": "Spinach Vegan Kadhi with Bajra & Jowar (Sorghum) Tawa Roti",
     "category": "BREAKFAST",
     "ingredients": [
-      "turmeric",
-      "chopped spinach",
-      "salt",
+      "a touch of ghee",
+      "bajra flour",
       "besan",
+      "chopped spinach",
+      "jowar flour",
+      "salt",
+      "turmeric",
       "water"
     ],
     "instructions": [
-      "Wash and clean all fresh ingredients thoroughly. Peel, chop, or slice the fresh produce (chopped spinach) as required for the recipe. Measure out the spices and seasonings (turmeric, salt) so they are ready for use. If using grains, lentils, or beans (besan), rinse them under running water and drain well. Keep all prepared items organized on your kitchen counter.",
-      "Heat a suitable pan or pot on medium-low heat and add a touch of coconut oil or ghee. Gently temper the whole spices or aromatics (such as turmeric) in the hot fat for 30-60 seconds until they become highly fragrant and release their natural oils. Be careful not to burn the base foundation.",
-      "Introduce the main ingredients to the tempered base. Stir in the grains or legumes (besan) along with water or broth. Add the prepped vegetables (chopped spinach) to the pot. Cover with a lid, reduce heat to medium-low, and let the mixture simmer gently. Stir occasionally to prevent sticking, and cook for 15-20 minutes until everything is tender and cooked through.",
-      "Uncover and assess the texture and thickness of the dish. Add finishing liquids like water (e.g. lemon juice or coconut milk) to enrich the body and flavor profile. Adjust the seasoning by adding remaining salt or fine spices (turmeric, salt). Let the dish simmer or blend for an additional 2-3 minutes to allow all the unique flavors to meld together beautifully.",
-      "Remove the dish from heat (or stop the blender) and prepare for presentation. Garnish with a sprinkle of mild spices or toasted seeds. Serve this healthy, gluten-free, and vegan Spinach Vegan Kadhi warm (or chilled if it is a beverage) in beautiful serving bowls or glassware. Enjoy immediately!"
+      "Wash and clean all fresh ingredients thoroughly. Chop the fresh spinach and measure out flours (besan, bajra flour, jowar flour) and spices (turmeric, salt). Keep all prepared items organized on your kitchen counter.",
+      "Prepare the Kadhi base: heat a touch of coconut oil or ghee in a pot, temper turmeric, and add besan mixed with water. Cover and simmer the spinach in the kadhi for 15 minutes, stirring occasionally.",
+      "Prepare the Roti dough: in a bowl, mix bajra flour, jowar flour, salt, and warm water. Knead into a smooth dough, roll out into circular rotis, and cook them on a hot tawa with a touch of ghee until golden spots appear on both sides.",
+      "Uncover the Kadhi and assess the texture. Add finishing water if too thick, and adjust the seasoning with salt. Simmer for an additional 2-3 minutes to let the flavors meld.",
+      "Serve the piping hot Spinach Vegan Kadhi in beautiful bowls accompanied by the freshly made warm Bajra & Jowar Rotis. Enjoy immediately!"
     ],
-    "description": "A clean, gluten-free & vegan recipe from the Breakfast collection.",
+    "description": "A clean, gluten-free & vegan pairing of Spinach Vegan Kadhi and freshly griddled Bajra & Jowar Tawa Roti.",
     "image": "https://images.unsplash.com/photo-1533089860892-a7c6f0a88666?auto=format&fit=crop&q=80&w=600",
     "substituted": false,
     "substitutionNotes": "Verified compliant with dietary guidelines.",
-    "prepTime": 10,
-    "cookTime": 10,
-    "totalTime": 20,
+    "prepTime": 15,
+    "cookTime": 20,
+    "totalTime": 35,
     "servings": 2,
-    "difficulty": "Easy"
+    "difficulty": "Medium"
   },
   {
     "id": "recipe_071",
@@ -2456,90 +2467,6 @@
       "Introduce the main ingredients to the tempered base. Stir in the grains or legumes (cooked chickpeas) along with water or broth. Cover with a lid, reduce heat to medium-low, and let the mixture simmer gently. Stir occasionally to prevent sticking, and cook for 15-20 minutes until everything is tender and cooked through.",
       "Uncover and assess the texture and thickness of the dish. Adjust the seasoning by adding remaining salt or fine spices (garam masala, rosemary). Let the dish simmer or blend for an additional 2-3 minutes to allow all the unique flavors to meld together beautifully.",
       "Remove the dish from heat (or stop the blender) and prepare for presentation. Garnish with a sprinkle of mild spices or toasted seeds. Serve this healthy, gluten-free, and vegan Chickpea Rosemary Rice warm (or chilled if it is a beverage) in beautiful serving bowls or glassware. Enjoy immediately!"
-    ],
-    "description": "A clean, gluten-free & vegan recipe from the Breakfast collection.",
-    "image": "https://images.unsplash.com/photo-1533089860892-a7c6f0a88666?auto=format&fit=crop&q=80&w=600",
-    "substituted": false,
-    "substitutionNotes": "Verified compliant with dietary guidelines.",
-    "prepTime": 10,
-    "cookTime": 10,
-    "totalTime": 20,
-    "servings": 2,
-    "difficulty": "Easy"
-  },
-  {
-    "id": "recipe_087",
-    "name": "Bajra & Jowar (Sorghum) Tawa Roti",
-    "category": "BREAKFAST",
-    "ingredients": [
-      "salt",
-      "warm water",
-      "bajra flour",
-      "a touch of ghee",
-      "jowar flour"
-    ],
-    "instructions": [
-      "Wash and clean all fresh ingredients thoroughly. Measure out the spices and seasonings (salt) so they are ready for use. If using grains, lentils, or beans (bajra flour), rinse them under running water and drain well. Keep all prepared items organized on your kitchen counter.",
-      "Heat a suitable pan or pot on medium-low heat and add a touch of a touch of ghee. Gently temper the whole spices or aromatics (such as salt) in the hot fat for 30-60 seconds until they become highly fragrant and release their natural oils. Be careful not to burn the base foundation.",
-      "Introduce the main ingredients to the tempered base. Stir in the grains or legumes (bajra flour) along with water or broth. Cover with a lid, reduce heat to medium-low, and let the mixture simmer gently. Stir occasionally to prevent sticking, and cook for 15-20 minutes until everything is tender and cooked through.",
-      "Uncover and assess the texture and thickness of the dish. Add finishing liquids like warm water (e.g. lemon juice or coconut milk) to enrich the body and flavor profile. Adjust the seasoning by adding remaining salt or fine spices (salt). Let the dish simmer or blend for an additional 2-3 minutes to allow all the unique flavors to meld together beautifully.",
-      "Remove the dish from heat (or stop the blender) and prepare for presentation. Garnish with a sprinkle of mild spices or toasted seeds. Serve this healthy, gluten-free, and vegan Bajra & Jowar (Sorghum) Tawa Roti warm (or chilled if it is a beverage) in beautiful serving bowls or glassware. Enjoy immediately!"
-    ],
-    "description": "A clean, gluten-free & vegan recipe from the Breakfast collection.",
-    "image": "https://images.unsplash.com/photo-1533089860892-a7c6f0a88666?auto=format&fit=crop&q=80&w=600",
-    "substituted": false,
-    "substitutionNotes": "Verified compliant with dietary guidelines.",
-    "prepTime": 10,
-    "cookTime": 10,
-    "totalTime": 20,
-    "servings": 2,
-    "difficulty": "Easy"
-  },
-  {
-    "id": "recipe_088",
-    "name": "Jwar & Missi Roti",
-    "category": "BREAKFAST",
-    "ingredients": [
-      "jwar flour",
-      "indian spices (cumin",
-      "etc.)",
-      "besan",
-      "warm water"
-    ],
-    "instructions": [
-      "Wash and clean all fresh ingredients thoroughly. Peel, chop, or slice the fresh produce (etc.)) as required for the recipe. Measure out the spices and seasonings (indian spices (cumin) so they are ready for use. If using grains, lentils, or beans (jwar flour), rinse them under running water and drain well. Keep all prepared items organized on your kitchen counter.",
-      "Heat a suitable pan or pot on medium-low heat and add a touch of coconut oil or ghee. Gently temper the whole spices or aromatics (such as indian spices (cumin) in the hot fat for 30-60 seconds until they become highly fragrant and release their natural oils. Be careful not to burn the base foundation.",
-      "Introduce the main ingredients to the tempered base. Stir in the grains or legumes (jwar flour) along with water or broth. Add the prepped vegetables (etc.)) to the pot. Cover with a lid, reduce heat to medium-low, and let the mixture simmer gently. Stir occasionally to prevent sticking, and cook for 15-20 minutes until everything is tender and cooked through.",
-      "Uncover and assess the texture and thickness of the dish. Add finishing liquids like warm water (e.g. lemon juice or coconut milk) to enrich the body and flavor profile. Adjust the seasoning by adding remaining salt or fine spices (indian spices (cumin). Let the dish simmer or blend for an additional 2-3 minutes to allow all the unique flavors to meld together beautifully.",
-      "Remove the dish from heat (or stop the blender) and prepare for presentation. Garnish with a sprinkle of mild spices or toasted seeds. Serve this healthy, gluten-free, and vegan Jwar & Missi Roti warm (or chilled if it is a beverage) in beautiful serving bowls or glassware. Enjoy immediately!"
-    ],
-    "description": "A clean, gluten-free & vegan recipe from the Breakfast collection.",
-    "image": "https://images.unsplash.com/photo-1533089860892-a7c6f0a88666?auto=format&fit=crop&q=80&w=600",
-    "substituted": false,
-    "substitutionNotes": "Verified compliant with dietary guidelines.",
-    "prepTime": 10,
-    "cookTime": 10,
-    "totalTime": 20,
-    "servings": 2,
-    "difficulty": "Easy"
-  },
-  {
-    "id": "recipe_089",
-    "name": "Besan-Methi Paratha",
-    "category": "BREAKFAST",
-    "ingredients": [
-      "fenugreek leaves",
-      "salt",
-      "warm water",
-      "chickpea flour",
-      "ghee"
-    ],
-    "instructions": [
-      "Wash and clean all fresh ingredients thoroughly. Peel, chop, or slice the fresh produce (fenugreek leaves) as required for the recipe. Measure out the spices and seasonings (salt) so they are ready for use. If using grains, lentils, or beans (chickpea flour), rinse them under running water and drain well. Keep all prepared items organized on your kitchen counter.",
-      "Heat a suitable pan or pot on medium-low heat and add a touch of ghee. Gently temper the whole spices or aromatics (such as salt) in the hot fat for 30-60 seconds until they become highly fragrant and release their natural oils. Be careful not to burn the base foundation.",
-      "Introduce the main ingredients to the tempered base. Stir in the grains or legumes (chickpea flour) along with water or broth. Add the prepped vegetables (fenugreek leaves) to the pot. Cover with a lid, reduce heat to medium-low, and let the mixture simmer gently. Stir occasionally to prevent sticking, and cook for 15-20 minutes until everything is tender and cooked through.",
-      "Uncover and assess the texture and thickness of the dish. Add finishing liquids like warm water (e.g. lemon juice or coconut milk) to enrich the body and flavor profile. Adjust the seasoning by adding remaining salt or fine spices (salt). Let the dish simmer or blend for an additional 2-3 minutes to allow all the unique flavors to meld together beautifully.",
-      "Remove the dish from heat (or stop the blender) and prepare for presentation. Garnish with a sprinkle of mild spices or toasted seeds. Serve this healthy, gluten-free, and vegan Besan-Methi Paratha warm (or chilled if it is a beverage) in beautiful serving bowls or glassware. Enjoy immediately!"
     ],
     "description": "A clean, gluten-free & vegan recipe from the Breakfast collection.",
     "image": "https://images.unsplash.com/photo-1533089860892-a7c6f0a88666?auto=format&fit=crop&q=80&w=600",

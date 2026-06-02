@@ -1,0 +1,267 @@
+=== SEASONAL AUDIT REPORT (JS EMULATION) ===
+
+==================================================
+Season: Spring (Vasanta) (SPRING)
+==================================================
+Number of displaying recipes: 4
+
+  * Recipe: 'Warm Saffron Almond Milk' (ID: recipe_004)
+    Ingredients:
+      - 'jaggery' matched to allowed list item 'jaggery' [OK]
+      - 'dry ginger powder' matched to allowed list item 'ginger' [⚠️ WARNING (Partial Match)]
+      - 'tiny pinch of salt' matched to allowed list item 'salt' [⚠️ WARNING (Partial Match)]
+      - 'saffron strands' matched to allowed list item 'saffron' [⚠️ WARNING (Partial Match)]
+      - 'almond milk' matched to allowed list item 'almond milk' [OK]
+      - 'cardamom pods' matched to allowed list item 'cardamom' [⚠️ WARNING (Partial Match)]
+    ⚠️ POTENTIAL MISMATCHES (Out-of-season/disallowed ingredient matched via substring):
+      - Ingredient 'dry ginger powder' matched to 'ginger'
+      - Ingredient 'tiny pinch of salt' matched to 'salt'
+      - Ingredient 'saffron strands' matched to 'saffron'
+      - Ingredient 'cardamom pods' matched to 'cardamom'
+
+  * Recipe: 'Kairi Ka Pana (Raw Mango Cooler)' (ID: recipe_006)
+    Ingredients:
+      - 'regular salt' matched to allowed list item 'salt' [⚠️ WARNING (Partial Match)]
+      - 'mango' matched to allowed list item 'mango' [OK]
+      - 'black pepper' matched to allowed list item 'black pepper' [OK]
+      - 'black salt' matched to allowed list item 'salt' [⚠️ WARNING (Partial Match)]
+      - 'mint' matched to allowed list item 'mint' [OK]
+      - 'roasted cumin powder' matched to allowed list item 'cumin' [⚠️ WARNING (Partial Match)]
+    ⚠️ POTENTIAL MISMATCHES (Out-of-season/disallowed ingredient matched via substring):
+      - Ingredient 'regular salt' matched to 'salt'
+      - Ingredient 'black salt' matched to 'salt'
+      - Ingredient 'roasted cumin powder' matched to 'cumin'
+
+  * Recipe: 'Lemon Basil Cooler' (ID: recipe_011)
+    Ingredients:
+      - 'water' matched to allowed list item 'watermelon' [⚠️ WARNING (Partial Match)]
+      - 'jaggery' matched to allowed list item 'jaggery' [OK]
+      - 'lemon juice' matched to allowed list item 'lemon juice' [OK]
+      - 'maple syrup' matched to allowed list item 'maple syrup' [OK]
+      - 'basil leaves' matched to allowed list item 'basil' [⚠️ WARNING (Partial Match)]
+    ⚠️ POTENTIAL MISMATCHES (Out-of-season/disallowed ingredient matched via substring):
+      - Ingredient 'water' matched to 'watermelon'
+      - Ingredient 'basil leaves' matched to 'basil'
+
+  * Recipe: 'Salty Mojito' (ID: recipe_012)
+    Ingredients:
+      - 'mint leaves' matched to allowed list item 'mint' [⚠️ WARNING (Partial Match)]
+      - 'carbonated water' matched to allowed list item 'water' [⚠️ WARNING (Partial Match)]
+      - 'lime juice' matched to allowed list item 'lime' [⚠️ WARNING (Partial Match)]
+      - 'a significant pinch of salt' matched to allowed list item 'salt' [⚠️ WARNING (Partial Match)]
+    ⚠️ POTENTIAL MISMATCHES (Out-of-season/disallowed ingredient matched via substring):
+      - Ingredient 'mint leaves' matched to 'mint'
+      - Ingredient 'carbonated water' matched to 'water'
+      - Ingredient 'lime juice' matched to 'lime'
+      - Ingredient 'a significant pinch of salt' matched to 'salt'
+
+==================================================
+Season: Summer (Grishma) (SUMMER)
+==================================================
+Number of displaying recipes: 4
+
+  * Recipe: 'Warm Saffron Almond Milk' (ID: recipe_004)
+    Ingredients:
+      - 'jaggery' matched to allowed list item 'jaggery' [OK]
+      - 'dry ginger powder' matched to allowed list item 'ginger' [⚠️ WARNING (Partial Match)]
+      - 'tiny pinch of salt' matched to allowed list item 'salt' [⚠️ WARNING (Partial Match)]
+      - 'saffron strands' matched to allowed list item 'saffron' [⚠️ WARNING (Partial Match)]
+      - 'almond milk' matched to allowed list item 'almond milk' [OK]
+      - 'cardamom pods' matched to allowed list item 'cardamom' [⚠️ WARNING (Partial Match)]
+    ⚠️ POTENTIAL MISMATCHES (Out-of-season/disallowed ingredient matched via substring):
+      - Ingredient 'dry ginger powder' matched to 'ginger'
+      - Ingredient 'tiny pinch of salt' matched to 'salt'
+      - Ingredient 'saffron strands' matched to 'saffron'
+      - Ingredient 'cardamom pods' matched to 'cardamom'
+
+  * Recipe: 'Kairi Ka Pana (Raw Mango Cooler)' (ID: recipe_006)
+    Ingredients:
+      - 'regular salt' matched to allowed list item 'salt' [⚠️ WARNING (Partial Match)]
+      - 'mango' matched to allowed list item 'mango' [OK]
+      - 'black pepper' matched to allowed list item 'black pepper' [OK]
+      - 'black salt' matched to allowed list item 'salt' [⚠️ WARNING (Partial Match)]
+      - 'mint' matched to allowed list item 'mint' [OK]
+      - 'roasted cumin powder' matched to allowed list item 'cumin' [⚠️ WARNING (Partial Match)]
+    ⚠️ POTENTIAL MISMATCHES (Out-of-season/disallowed ingredient matched via substring):
+      - Ingredient 'regular salt' matched to 'salt'
+      - Ingredient 'black salt' matched to 'salt'
+      - Ingredient 'roasted cumin powder' matched to 'cumin'
+
+  * Recipe: 'Lemon Basil Cooler' (ID: recipe_011)
+    Ingredients:
+      - 'water' matched to allowed list item 'watermelon' [⚠️ WARNING (Partial Match)]
+      - 'jaggery' matched to allowed list item 'jaggery' [OK]
+      - 'lemon juice' matched to allowed list item 'lemon juice' [OK]
+      - 'maple syrup' matched to allowed list item 'maple syrup' [OK]
+      - 'basil leaves' matched to allowed list item 'basil' [⚠️ WARNING (Partial Match)]
+    ⚠️ POTENTIAL MISMATCHES (Out-of-season/disallowed ingredient matched via substring):
+      - Ingredient 'water' matched to 'watermelon'
+      - Ingredient 'basil leaves' matched to 'basil'
+
+  * Recipe: 'Salty Mojito' (ID: recipe_012)
+    Ingredients:
+      - 'mint leaves' matched to allowed list item 'mint' [⚠️ WARNING (Partial Match)]
+      - 'carbonated water' matched to allowed list item 'water' [⚠️ WARNING (Partial Match)]
+      - 'lime juice' matched to allowed list item 'lime' [⚠️ WARNING (Partial Match)]
+      - 'a significant pinch of salt' matched to allowed list item 'salt' [⚠️ WARNING (Partial Match)]
+    ⚠️ POTENTIAL MISMATCHES (Out-of-season/disallowed ingredient matched via substring):
+      - Ingredient 'mint leaves' matched to 'mint'
+      - Ingredient 'carbonated water' matched to 'water'
+      - Ingredient 'lime juice' matched to 'lime'
+      - Ingredient 'a significant pinch of salt' matched to 'salt'
+
+==================================================
+Season: Monsoon (Varsha) (MONSOON)
+==================================================
+Number of displaying recipes: 5
+
+  * Recipe: 'Warm Saffron Almond Milk' (ID: recipe_004)
+    Ingredients:
+      - 'jaggery' matched to allowed list item 'jaggery' [OK]
+      - 'dry ginger powder' matched to allowed list item 'ginger' [⚠️ WARNING (Partial Match)]
+      - 'tiny pinch of salt' matched to allowed list item 'salt' [⚠️ WARNING (Partial Match)]
+      - 'saffron strands' matched to allowed list item 'saffron' [⚠️ WARNING (Partial Match)]
+      - 'almond milk' matched to allowed list item 'almond milk' [OK]
+      - 'cardamom pods' matched to allowed list item 'cardamom' [⚠️ WARNING (Partial Match)]
+    ⚠️ POTENTIAL MISMATCHES (Out-of-season/disallowed ingredient matched via substring):
+      - Ingredient 'dry ginger powder' matched to 'ginger'
+      - Ingredient 'tiny pinch of salt' matched to 'salt'
+      - Ingredient 'saffron strands' matched to 'saffron'
+      - Ingredient 'cardamom pods' matched to 'cardamom'
+
+  * Recipe: 'Kairi Ka Pana (Raw Mango Cooler)' (ID: recipe_006)
+    Ingredients:
+      - 'regular salt' matched to allowed list item 'salt' [⚠️ WARNING (Partial Match)]
+      - 'mango' matched to allowed list item 'mango' [OK]
+      - 'black pepper' matched to allowed list item 'black pepper' [OK]
+      - 'black salt' matched to allowed list item 'salt' [⚠️ WARNING (Partial Match)]
+      - 'mint' matched to allowed list item 'mint' [OK]
+      - 'roasted cumin powder' matched to allowed list item 'cumin' [⚠️ WARNING (Partial Match)]
+    ⚠️ POTENTIAL MISMATCHES (Out-of-season/disallowed ingredient matched via substring):
+      - Ingredient 'regular salt' matched to 'salt'
+      - Ingredient 'black salt' matched to 'salt'
+      - Ingredient 'roasted cumin powder' matched to 'cumin'
+
+  * Recipe: 'Lemon Basil Cooler' (ID: recipe_011)
+    Ingredients:
+      - 'water' matched to allowed list item 'water apple' [⚠️ WARNING (Partial Match)]
+      - 'jaggery' matched to allowed list item 'jaggery' [OK]
+      - 'lemon juice' matched to allowed list item 'lemon juice' [OK]
+      - 'maple syrup' matched to allowed list item 'maple syrup' [OK]
+      - 'basil leaves' matched to allowed list item 'basil' [⚠️ WARNING (Partial Match)]
+    ⚠️ POTENTIAL MISMATCHES (Out-of-season/disallowed ingredient matched via substring):
+      - Ingredient 'water' matched to 'water apple'
+      - Ingredient 'basil leaves' matched to 'basil'
+
+  * Recipe: 'Salty Mojito' (ID: recipe_012)
+    Ingredients:
+      - 'mint leaves' matched to allowed list item 'mint' [⚠️ WARNING (Partial Match)]
+      - 'carbonated water' matched to allowed list item 'water' [⚠️ WARNING (Partial Match)]
+      - 'lime juice' matched to allowed list item 'lime' [⚠️ WARNING (Partial Match)]
+      - 'a significant pinch of salt' matched to allowed list item 'salt' [⚠️ WARNING (Partial Match)]
+    ⚠️ POTENTIAL MISMATCHES (Out-of-season/disallowed ingredient matched via substring):
+      - Ingredient 'mint leaves' matched to 'mint'
+      - Ingredient 'carbonated water' matched to 'water'
+      - Ingredient 'lime juice' matched to 'lime'
+      - Ingredient 'a significant pinch of salt' matched to 'salt'
+
+  * Recipe: 'Drumstick Soup (Clear)' (ID: recipe_046)
+    Ingredients:
+      - 'drumsticks' matched to allowed list item 'drumstick' [OK]
+      - 'peppercorns' matched to allowed list item 'corn' [⚠️ WARNING (Partial Match)]
+      - 'roasted cumin powder' matched to allowed list item 'cumin' [⚠️ WARNING (Partial Match)]
+      - 'salt' matched to allowed list item 'salt' [OK]
+    ⚠️ POTENTIAL MISMATCHES (Out-of-season/disallowed ingredient matched via substring):
+      - Ingredient 'peppercorns' matched to 'corn'
+      - Ingredient 'roasted cumin powder' matched to 'cumin'
+
+==================================================
+Season: Winter (Shishira) (WINTER)
+==================================================
+Number of displaying recipes: 7
+
+  * Recipe: 'Mint Strawberry Coconut Cooler' (ID: recipe_001)
+    Ingredients:
+      - 'coconut water' matched to allowed list item 'coconut water' [OK]
+      - 'strawberries' matched to allowed list item 'ber' [⚠️ WARNING (Partial Match)]
+      - 'lemon juice' matched to allowed list item 'lemon juice' [OK]
+      - 'mint leaves' matched to allowed list item 'mint' [⚠️ WARNING (Partial Match)]
+      - 'black salt' matched to allowed list item 'salt' [⚠️ WARNING (Partial Match)]
+    ⚠️ POTENTIAL MISMATCHES (Out-of-season/disallowed ingredient matched via substring):
+      - Ingredient 'strawberries' matched to 'ber'
+      - Ingredient 'mint leaves' matched to 'mint'
+      - Ingredient 'black salt' matched to 'salt'
+
+  * Recipe: 'Warm Saffron Almond Milk' (ID: recipe_004)
+    Ingredients:
+      - 'jaggery' matched to allowed list item 'jaggery' [OK]
+      - 'dry ginger powder' matched to allowed list item 'ginger' [⚠️ WARNING (Partial Match)]
+      - 'tiny pinch of salt' matched to allowed list item 'salt' [⚠️ WARNING (Partial Match)]
+      - 'saffron strands' matched to allowed list item 'saffron' [⚠️ WARNING (Partial Match)]
+      - 'almond milk' matched to allowed list item 'almond milk' [OK]
+      - 'cardamom pods' matched to allowed list item 'cardamom' [⚠️ WARNING (Partial Match)]
+    ⚠️ POTENTIAL MISMATCHES (Out-of-season/disallowed ingredient matched via substring):
+      - Ingredient 'dry ginger powder' matched to 'ginger'
+      - Ingredient 'tiny pinch of salt' matched to 'salt'
+      - Ingredient 'saffron strands' matched to 'saffron'
+      - Ingredient 'cardamom pods' matched to 'cardamom'
+
+  * Recipe: 'Lemon Basil Cooler' (ID: recipe_011)
+    Ingredients:
+      - 'water' matched to allowed list item 'coconut water' [⚠️ WARNING (Partial Match)]
+      - 'jaggery' matched to allowed list item 'jaggery' [OK]
+      - 'lemon juice' matched to allowed list item 'lemon juice' [OK]
+      - 'maple syrup' matched to allowed list item 'maple syrup' [OK]
+      - 'basil leaves' matched to allowed list item 'basil' [⚠️ WARNING (Partial Match)]
+    ⚠️ POTENTIAL MISMATCHES (Out-of-season/disallowed ingredient matched via substring):
+      - Ingredient 'water' matched to 'coconut water'
+      - Ingredient 'basil leaves' matched to 'basil'
+
+  * Recipe: 'Salty Mojito' (ID: recipe_012)
+    Ingredients:
+      - 'mint leaves' matched to allowed list item 'mint' [⚠️ WARNING (Partial Match)]
+      - 'carbonated water' matched to allowed list item 'water' [⚠️ WARNING (Partial Match)]
+      - 'lime juice' matched to allowed list item 'lime' [⚠️ WARNING (Partial Match)]
+      - 'a significant pinch of salt' matched to allowed list item 'salt' [⚠️ WARNING (Partial Match)]
+    ⚠️ POTENTIAL MISMATCHES (Out-of-season/disallowed ingredient matched via substring):
+      - Ingredient 'mint leaves' matched to 'mint'
+      - Ingredient 'carbonated water' matched to 'water'
+      - Ingredient 'lime juice' matched to 'lime'
+      - Ingredient 'a significant pinch of salt' matched to 'salt'
+
+  * Recipe: 'Chickpea Chana Chaat on Cucumber Boats' (ID: recipe_050)
+    Ingredients:
+      - 'coriander' matched to allowed list item 'coriander' [OK]
+      - 'lemon juice' matched to allowed list item 'lemon juice' [OK]
+      - 'large cucumbers' matched to allowed list item 'ber' [⚠️ WARNING (Partial Match)]
+      - 'black salt' matched to allowed list item 'salt' [⚠️ WARNING (Partial Match)]
+      - 'boiled chickpeas' matched to allowed list item 'peas' [⚠️ WARNING (Partial Match)]
+    ⚠️ POTENTIAL MISMATCHES (Out-of-season/disallowed ingredient matched via substring):
+      - Ingredient 'large cucumbers' matched to 'ber'
+      - Ingredient 'black salt' matched to 'salt'
+      - Ingredient 'boiled chickpeas' matched to 'peas'
+
+  * Recipe: 'Cauliflower Fried Rice' (ID: recipe_079)
+    Ingredients:
+      - 'pepper' matched to allowed list item 'sweet pepper' [⚠️ WARNING (Partial Match)]
+      - 'green spring onion greens (hara pyaaj)' matched to allowed list item 'hara pyaaj' [⚠️ WARNING (Partial Match)]
+      - 'colored bell peppers' matched to allowed list item 'bell pepper' [⚠️ WARNING (Partial Match)]
+      - 'salt' matched to allowed list item 'salt' [OK]
+      - 'cauliflower' matched to allowed list item 'cauliflower' [OK]
+      - 'coconut oil' matched to allowed list item 'coconut oil' [OK]
+    ⚠️ POTENTIAL MISMATCHES (Out-of-season/disallowed ingredient matched via substring):
+      - Ingredient 'pepper' matched to 'sweet pepper'
+      - Ingredient 'green spring onion greens (hara pyaaj)' matched to 'hara pyaaj'
+      - Ingredient 'colored bell peppers' matched to 'bell pepper'
+
+  * Recipe: 'Besan-Methi Paratha' (ID: recipe_089)
+    Ingredients:
+      - 'chickpea flour' matched to allowed list item 'peas' [⚠️ WARNING (Partial Match)]
+      - 'salt' matched to allowed list item 'salt' [OK]
+      - 'warm water' matched to allowed list item 'water' [⚠️ WARNING (Partial Match)]
+      - 'fenugreek leaves' matched to allowed list item 'fenugreek' [⚠️ WARNING (Partial Match)]
+      - 'ghee' matched to allowed list item 'ghee' [OK]
+    ⚠️ POTENTIAL MISMATCHES (Out-of-season/disallowed ingredient matched via substring):
+      - Ingredient 'chickpea flour' matched to 'peas'
+      - Ingredient 'warm water' matched to 'water'
+      - Ingredient 'fenugreek leaves' matched to 'fenugreek'

@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Explore traditional Indian recipes aligned with seasonal Ayurvedic produce. Switch between seasons and check recipe ingredient compliance dynamically.">
+  <title>Awaken Now - Seasonal Indian Recipe Hub</title>
+  
+  <!-- Premium Typography -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;500;600;700&family=Playfair+Display:ital,wght@0,400;0,600;0,700;1,400&display=swap" rel="stylesheet">
+  
+  <!-- Stylesheet -->
+  <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+  <!-- Background Glows for Modern Aesthetic -->
+  <div class="glow-bg glow-orange"></div>
+  <div class="glow-bg glow-green"></div>
+
+  <header class="app-header">
+    <div class="header-container">
+      <span class="header-tagline">Ayurvedic Culinary Compass</span>
+      <h1 class="main-title">Awaken Now Recipes</h1>
+      <p class="header-subtitle">Aligning nourishment with nature's seasonal rhythms</p>
+      
+      <!-- Portal Navigation Tabs -->
+      <div class="portal-nav glass-panel">
+        <button id="nav-meals" class="btn-nav active" aria-selected="true">
+          <span class="nav-icon">🍲</span> Meal Plan Portal
+        </button>
+        <button id="nav-beverages" class="btn-nav" aria-selected="false">
+          <span class="nav-icon">🥤</span> Beverages & Coolers
+        </button>
+      </div>
+    </div>
+  </header>
+
+  <main class="app-container">
+    <!-- Sidebar: Seasonal Produce Reference -->
+    <aside class="sidebar-section" aria-labelledby="sidebar-title">
+      <div class="glass-panel sidebar-card">
+        <h2 id="sidebar-title" class="sidebar-header-title">Season Overview</h2>
+        
+        <div class="audit-control-group">
+          <label class="toggle-switch-label" for="audit-mode">
+            <span class="toggle-text">Audit Mismatches</span>
+            <input type="checkbox" id="audit-mode" class="toggle-checkbox">
+            <span class="toggle-slider"></span>
+          </label>
+          <p class="control-description">Shows all recipes and flags any ingredients not allowed in the selected season.</p>
+        </div>
+
+        <hr class="panel-divider">
+
+        <div class="produce-list-group">
+          <h3 class="produce-title-label">Allowed Seasonal Produce</h3>
+          <ul id="allowed-produce" class="produce-list">
+            <!-- Populated via JS -->
+          </ul>
+        </div>
+
+        <div class="produce-list-group">
+          <h3 class="produce-title-label">Evergreen Staples</h3>
+          <ul id="evergreen-staples" class="produce-list staples-list">
+            <!-- Populated via JS -->
+          </ul>
+        </div>
+      </div>
+    </aside>
+
+    <!-- Main Content Area: Season Selector & Recipe Grid -->
+    <section class="content-section" aria-labelledby="active-season-header">
+      <!-- Seasonal Toggle Control Bar -->
+      <div class="glass-panel toggle-container">
+        <h2 class="sr-only">Select Season</h2>
+        <div id="season-toggles" class="toggles-wrapper">
+          <!-- Populated dynamically with buttons -->
+        </div>
+      </div>
+
+      <!-- Active Season Header / Summary -->
+      <div class="season-info-bar">
+        <h2 id="active-season-header" class="season-status-text">
+          Showing recipes for: <span id="active-season-title" class="highlight-season">...</span>
+        </h2>
+        <span id="total-count" class="count-badge">0 Recipes</span>
+      </div>
+
+      <!-- Developer Tool: Weekly Planner -->
+      <div id="dev-weekly-planner" class="glass-panel dev-weekly-panel">
+        <div class="dev-header">
+          <span class="dev-tag">Developer Tool</span>
+          <h3 class="dev-title">Weekly Meal Planner</h3>
+        </div>
+        <div id="weekly-controls" class="weekly-btn-group">
+          <!-- Populated dynamically via JS -->
+        </div>
+      </div>
+
+      <!-- Recipes Grid -->
+      <div id="recipe-grid" class="recipes-grid-layout">
+        <!-- Populated dynamically with recipe cards -->
+        <div class="loading-state">Loading recipe collection...</div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="app-footer">
+    <div class="footer-content">
+      <p>&copy; 2026 Awaken Now Seasonal Recipe Project. Made for Ayurvedic Seasonal Dining.</p>
+    </div>
+  </footer>
+
+  <!-- Recipe Details Modal -->
+  <div id="recipe-modal" class="modal-overlay" aria-hidden="true" role="dialog">
+    <div class="modal-content">
+      <button id="modal-close" class="btn-close-modal" aria-label="Close details">&times;</button>
+      <div id="modal-body">
+        <!-- Filled dynamically via JS -->
+      </div>
+    </div>
+  </div>
+
+  <!-- Scripts -->
+  <script src="js/data-store.js"></script>
+  <script src="js/app.js"></script>
+</body>
+</html>

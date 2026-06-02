@@ -131,19 +131,9 @@ body {
 }
 
 .app-container {
-  display: grid;
-  grid-template-columns: 320px 1fr;
-  gap: 2.5rem;
-  max-width: 1300px;
+  max-width: 1200px;
   margin: 0 auto;
   padding: 0 1.5rem 4rem;
-}
-
-@media (max-width: 968px) {
-  .app-container {
-    grid-template-columns: 1fr;
-    gap: 2rem;
-  }
 }
 
 /* Glassmorphism Panel helper */
@@ -159,21 +149,6 @@ body {
 
 .glass-panel:hover {
   border-color: var(--border-hover);
-}
-
-/* ==========================================================================
-   Sidebar: Allowed Produce details
-   ========================================================================== */
-.sidebar-section {
-  height: fit-content;
-  position: sticky;
-  top: 2rem;
-}
-
-@media (max-width: 968px) {
-  .sidebar-section {
-    position: static;
-  }
 }
 
 .sidebar-header-title {
@@ -1037,6 +1012,99 @@ body {
 
 .nav-icon {
   font-size: 1.1rem;
+}
+
+/* Collapsible Season Overview & Produce Reference */
+.collapsible-season-overview {
+  margin-bottom: 2.5rem;
+  border-radius: 16px;
+  overflow: hidden;
+  border: 1px solid rgba(255, 255, 255, 0.08);
+  padding: 0 !important; /* Override standard glass-panel padding */
+  transition: border-color 0.3s ease;
+}
+
+.btn-toggle-overview {
+  width: 100%;
+  text-align: left;
+  background: rgba(255, 255, 255, 0.01);
+  border: none;
+  color: var(--text-primary);
+  padding: 1.25rem 1.5rem;
+  font-family: var(--font-body);
+  font-size: 1.1rem;
+  font-weight: 600;
+  cursor: pointer;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  transition: background 0.3s ease;
+}
+
+.btn-toggle-overview:hover {
+  background: rgba(255, 255, 255, 0.04);
+}
+
+.toggle-icon {
+  font-size: 0.85rem;
+  transition: transform 0.3s ease;
+  color: var(--color-summer);
+}
+
+.overview-content {
+  overflow: hidden;
+  max-height: 0;
+  opacity: 0;
+  padding: 0 1.5rem;
+  transition: max-height 0.4s cubic-bezier(0.4, 0, 0.2, 1), opacity 0.3s ease, padding 0.4s ease;
+}
+
+.overview-content.expanded {
+  max-height: 1200px; /* Large enough to hold all items */
+  opacity: 1;
+  padding: 1.5rem;
+  border-top: 1px solid rgba(255, 255, 255, 0.06);
+}
+
+.overview-grid {
+  display: grid;
+  grid-template-columns: 1fr 1.2fr 1.2fr;
+  gap: 2rem;
+}
+
+.overview-column h3 {
+  font-size: 0.95rem;
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+  color: var(--text-secondary);
+  margin-bottom: 1.25rem;
+  font-weight: 600;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.05);
+  padding-bottom: 0.5rem;
+}
+
+/* Specific styling for the audit column in the overview panel */
+.overview-column.audit-col {
+  display: flex;
+  flex-direction: column;
+}
+
+.overview-column.audit-col h3 {
+  margin-bottom: 1.25rem;
+}
+
+.overview-column.audit-col .audit-control-group {
+  background: rgba(255, 255, 255, 0.02);
+  padding: 1rem;
+  border-radius: 10px;
+  border: 1px solid rgba(255, 255, 255, 0.04);
+}
+
+@media (max-width: 850px) {
+  .overview-grid {
+    grid-template-columns: 1fr;
+    gap: 1.5rem;
+  }
 }
 
 

@@ -38,40 +38,45 @@
   </header>
 
   <main class="app-container">
-    <!-- Sidebar: Seasonal Produce Reference -->
-    <aside class="sidebar-section" aria-labelledby="sidebar-title">
-      <div class="glass-panel sidebar-card">
-        <h2 id="sidebar-title" class="sidebar-header-title">Season Overview</h2>
-        
-        <div class="audit-control-group">
-          <label class="toggle-switch-label" for="audit-mode">
-            <span class="toggle-text">Audit Mismatches</span>
-            <input type="checkbox" id="audit-mode" class="toggle-checkbox">
-            <span class="toggle-slider"></span>
-          </label>
-          <p class="control-description">Shows all recipes and flags any ingredients not allowed in the selected season.</p>
-        </div>
-
-        <hr class="panel-divider">
-
-        <div class="produce-list-group">
-          <h3 class="produce-title-label">Allowed Seasonal Produce</h3>
-          <ul id="allowed-produce" class="produce-list">
-            <!-- Populated via JS -->
-          </ul>
-        </div>
-
-        <div class="produce-list-group">
-          <h3 class="produce-title-label">Evergreen Staples</h3>
-          <ul id="evergreen-staples" class="produce-list staples-list">
-            <!-- Populated via JS -->
-          </ul>
+    <!-- Main Content Area: Season Selector, Collapsible Overview & Recipe Grid -->
+    <section class="content-section" aria-labelledby="active-season-header">
+      <!-- Collapsible Season Overview & Produce Reference -->
+      <div class="glass-panel collapsible-season-overview">
+        <button id="btn-toggle-overview" class="btn-toggle-overview">
+          <span>🌿 Season Info & Produce Guidelines</span>
+          <span class="toggle-icon">▼</span>
+        </button>
+        <div id="overview-content" class="overview-content collapsed">
+          <div class="overview-grid">
+            <div class="overview-column audit-col">
+              <h3>Dietary Audit Settings</h3>
+              <div class="audit-control-group">
+                <label class="toggle-switch-label" for="audit-mode">
+                  <span class="toggle-text">Audit Mismatches</span>
+                  <input type="checkbox" id="audit-mode" class="toggle-checkbox">
+                  <span class="toggle-slider"></span>
+                </label>
+                <p class="control-description">Shows all recipes and flags any ingredients not allowed in the selected season.</p>
+              </div>
+            </div>
+            
+            <div class="overview-column">
+              <h3>Allowed Seasonal Produce</h3>
+              <ul id="allowed-produce" class="produce-list">
+                <!-- Populated via JS -->
+              </ul>
+            </div>
+            
+            <div class="overview-column">
+              <h3>Evergreen Staples</h3>
+              <ul id="evergreen-staples" class="produce-list staples-list">
+                <!-- Populated via JS -->
+              </ul>
+            </div>
+          </div>
         </div>
       </div>
-    </aside>
 
-    <!-- Main Content Area: Season Selector & Recipe Grid -->
-    <section class="content-section" aria-labelledby="active-season-header">
       <!-- Seasonal Toggle Control Bar -->
       <div class="glass-panel toggle-container">
         <h2 class="sr-only">Select Season</h2>

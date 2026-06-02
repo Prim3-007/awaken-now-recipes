@@ -12,6 +12,8 @@ document.addEventListener('DOMContentLoaded', () => {
   const weeklyControls = document.getElementById('weekly-controls');
   const navMeals = document.getElementById('nav-meals');
   const navBeverages = document.getElementById('nav-beverages');
+  const btnToggleOverview = document.getElementById('btn-toggle-overview');
+  const overviewContent = document.getElementById('overview-content');
 
   let activeSeason = 'spring'; // default season
   let auditMode = false; // if true, show all recipes but highlight mismatch ingredients
@@ -445,6 +447,20 @@ document.addEventListener('DOMContentLoaded', () => {
       navMeals.setAttribute('aria-selected', 'false');
       activeWeek = 'all'; // reset week
       updateUI();
+    });
+
+    // Collapsible season overview toggle
+    btnToggleOverview.addEventListener('click', () => {
+      const isCollapsed = overviewContent.classList.contains('collapsed');
+      if (isCollapsed) {
+        overviewContent.classList.remove('collapsed');
+        overviewContent.classList.add('expanded');
+        btnToggleOverview.querySelector('.toggle-icon').textContent = '▲';
+      } else {
+        overviewContent.classList.add('collapsed');
+        overviewContent.classList.remove('expanded');
+        btnToggleOverview.querySelector('.toggle-icon').textContent = '▼';
+      }
     });
 
     // Season Toggle buttons click

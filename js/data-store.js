@@ -12,9 +12,10 @@ class DataStore {
    */
   async initialize() {
     try {
+      const cacheBuster = `t=${Date.now()}`;
       const [recipesRes, produceRes] = await Promise.all([
-        fetch('data/recipes.json'),
-        fetch('data/seasonal_produce.json')
+        fetch(`data/recipes.json?${cacheBuster}`),
+        fetch(`data/seasonal_produce.json?${cacheBuster}`)
       ]);
 
       if (!recipesRes.ok || !produceRes.ok) {

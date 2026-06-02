@@ -5,18 +5,12 @@ document.addEventListener('DOMContentLoaded', () => {
   const seasonToggles = document.getElementById('season-toggles');
   const recipeGrid = document.getElementById('recipe-grid');
   const activeSeasonTitle = document.getElementById('active-season-title');
-  const allowedProduceList = document.getElementById('allowed-produce');
-  const evergreenStaplesList = document.getElementById('evergreen-staples');
-  const auditModeCheckbox = document.getElementById('audit-mode');
   const totalCount = document.getElementById('total-count');
   const weeklyControls = document.getElementById('weekly-controls');
   const navMeals = document.getElementById('nav-meals');
   const navBeverages = document.getElementById('nav-beverages');
-  const btnToggleOverview = document.getElementById('btn-toggle-overview');
-  const overviewContent = document.getElementById('overview-content');
 
   let activeSeason = 'spring'; // default season
-  let auditMode = false; // if true, show all recipes but highlight mismatch ingredients
   let activeWeek = 'all'; // 'all' or week index e.g. 1, 2, 3, etc.
   let activeTab = 'meals'; // 'meals' or 'beverages'
 
@@ -124,17 +118,15 @@ document.addEventListener('DOMContentLoaded', () => {
   }
 
   /**
-   * Update the entire UI based on current season and audit mode.
+   * Update the entire UI based on current season.
    */
   function updateUI() {
     const seasons = store.getSeasons();
     const currentSeasonData = seasons[activeSeason];
     if (!currentSeasonData) return;
 
-    // 1. Update titles & sidebars
+    // 1. Update titles
     activeSeasonTitle.textContent = currentSeasonData.displayName;
-    renderProduceList(currentSeasonData.allowedProduce, allowedProduceList);
-    renderProduceList(currentSeasonData.evergreenStaples, evergreenStaplesList);
 
     // 2. Filter and render recipes
     let recipesToRender = [];
@@ -146,14 +138,10 @@ document.addEventListener('DOMContentLoaded', () => {
       return activeTab === 'meals' ? !isBevOrDessert : isBevOrDessert;
     });
 
-    if (auditMode) {
-      recipesToRender = filteredRecipes;
-    } else {
-      recipesToRender = filteredRecipes.filter(recipe => {
-        const { isMatch } = store.validateRecipeForSeason(recipe, activeSeason);
-        return isMatch;
-      });
-    }
+    recipesToRender = filteredRecipes.filter(recipe => {
+      const { isMatch } = store.validateRecipeForSeason(recipe, activeSeason);
+      return isMatch;
+    });
 
     // 3. Render and process Weekly controls / Slicing
     const isWeeklyView = activeTab === 'meals' && activeWeek !== 'all';
@@ -231,22 +219,6 @@ document.addEventListener('DOMContentLoaded', () => {
     }
   }
 
-  /**
-   * Render items in the side list.
-   */
-  function renderProduceList(items, containerElement) {
-    containerElement.innerHTML = '';
-    if (items.length === 0) {
-      containerElement.innerHTML = '<li>None listed</li>';
-      return;
-    }
-
-    items.forEach(item => {
-      const li = document.createElement('li');
-      li.textContent = item;
-      containerElement.appendChild(li);
-    });
-  }
 
   const recipeModal = document.getElementById('recipe-modal');
   const modalBody = document.getElementById('modal-body');
@@ -449,20 +421,6 @@ document.addEventListener('DOMContentLoaded', () => {
       updateUI();
     });
 
-    // Collapsible season overview toggle
-    btnToggleOverview.addEventListener('click', () => {
-      const isCollapsed = overviewContent.classList.contains('collapsed');
-      if (isCollapsed) {
-        overviewContent.classList.remove('collapsed');
-        overviewContent.classList.add('expanded');
-        btnToggleOverview.querySelector('.toggle-icon').textContent = '▲';
-      } else {
-        overviewContent.classList.add('collapsed');
-        overviewContent.classList.remove('expanded');
-        btnToggleOverview.querySelector('.toggle-icon').textContent = '▼';
-      }
-    });
-
     // Season Toggle buttons click
     seasonToggles.addEventListener('click', (e) => {
       const btn = e.target.closest('.btn-season');
@@ -473,12 +431,6 @@ document.addEventListener('DOMContentLoaded', () => {
       btn.classList.add('active');
 
       activeSeason = btn.dataset.season;
-      updateUI();
-    });
-
-    // Audit Mode Checkbox toggle
-    auditModeCheckbox.addEventListener('change', (e) => {
-      auditMode = e.target.checked;
       updateUI();
     });
 

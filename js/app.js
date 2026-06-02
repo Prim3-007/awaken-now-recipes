@@ -260,13 +260,15 @@ document.addEventListener('DOMContentLoaded', () => {
 
       const dayBadge = isWeeklyView && index < 14 ? `<span class="day-badge-inline">Day ${Math.floor(index / 2) + 1}: ${daysOfWeek[Math.floor(index / 2)]} (Recipe ${(index % 2) + 1})</span>` : '';
 
+      const cardHeader = dayBadge ? `
+          <div class="recipe-card-header">
+            ${dayBadge}
+          </div>
+      ` : '';
+
       card.innerHTML = `
         <div class="recipe-content">
-          <div class="recipe-card-header">
-            <span class="recipe-category-badge">${recipe.category}</span>
-            ${dayBadge}
-            ${!isMatch ? '<span class="mismatch-badge-inline">Non-Seasonal</span>' : '<span class="match-badge-inline">Seasonal</span>'}
-          </div>
+          ${cardHeader}
           <h3 class="recipe-title">${recipe.name}</h3>
           <p class="recipe-description">${recipe.description || ''}</p>
           
